@@ -1,3 +1,5 @@
+// Question 1 : Create functions that takes two numbers and an operator as input and perform different operations on the number
+
 function calculate(num1, num2, operator) {
   switch (operator) {
     case "+":
@@ -24,3 +26,5 @@ console.log(calculate(10, 5, "-")); // 5
 console.log(calculate(10, 5, "*")); // 50
 console.log(calculate(10, 5, "/")); // 2
 console.log(calculate(10, 5, "%")); // 0
+
+//Question 2
