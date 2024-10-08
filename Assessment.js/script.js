@@ -1,21 +1,21 @@
 // Question 1 : Create functions that takes two numbers and an operator as input and perform different operations on the number
 
-function calculate(num1, num2, operator) {
+function calculate(x, y, operator) {
   switch (operator) {
     case "+":
-      return num1 + num2;
+      return x + y;
     case "-":
-      return num1 - num2;
+      return x - y;
     case "*":
-      return num1 * num2;
+      return x * y;
     case "/":
-      if (num2 !== 0) {
-        return num1 / num2;
+      if (y !== 0) {
+        return x / y;
       } else {
         return "Error: Division by zero";
       }
     case "%":
-      return num1 % num2;
+      return x % y;
     default:
       return "Error: Invalid operator";
   }
@@ -27,4 +27,4 @@ console.log(calculate(10, 5, "*")); // 50
 console.log(calculate(10, 5, "/")); // 2
 console.log(calculate(10, 5, "%")); // 0
 
-//Question 2
+//Question 2 : Create a single function that takes an array of numbers and operators as input, and perform the operations in chronological
