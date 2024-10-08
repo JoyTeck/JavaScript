@@ -21,5 +21,6 @@ console.log(calculate(10, 5, "+")); // 15
 console.log(calculate(10, 5, "-")); // 5
 console.log(calculate(10, 5, "*")); // 50
 console.log(calculate(10, 5, "/")); // 2
+console.log(cal.toFixed(2));
 
 //Question 2 : Create a single function that takes an array of numbers and operators as input, and perform the operations in chronological
